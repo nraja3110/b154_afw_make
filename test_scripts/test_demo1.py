@@ -13,3 +13,4 @@ class Test1(BaseTest):
         print(xl_data)
         login_page=LoginPage(self.page)
         login_page.set_username(xl_data)
+        print("end")
